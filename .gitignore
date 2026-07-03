@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# SDCC build artifacts (Makefile writes everything under build/)
+build/
+
+# Python cache (serial_monitor.py tooling)
+__pycache__/
+*.pyc
+
+# Third-party reference implementation (cloned via git; see SPEC.md).
+# Contains bundled vendor binaries; reproduce with:
+#   git clone https://github.com/atc1441/CH559sdccUSBHost reference
+reference/
